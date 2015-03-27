@@ -1,0 +1,10 @@
+<h1>sign Up!</h1>
+<%= form_for (@user) do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    
+    <%= f.label :tagline %>
+    <%= f.text_field :tagline %>
+    
+    <%= f.submit "Create!" %>
+<% end %>
