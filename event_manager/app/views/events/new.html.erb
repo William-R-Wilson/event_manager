@@ -1,0 +1,6 @@
+<p>Create a new event!</p>
+
+<%= form_for(@event) do |f| %>
+  <%= f.text_area :description, placeholder: "describe your event" %>
+  <%= f.submit "Create" %>
+<% end %>
